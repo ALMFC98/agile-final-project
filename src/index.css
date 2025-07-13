@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+:root {
+  --primary: #0B1F33;
+  --accent: #DAB756;
+  --black: #000000;
+  --white: #FFFFFF;
+  --green-dark: #104F55;
+  --green-light: #4CAF50;
+  --border: #1E2A38;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: var(--primary);
+  color: var(--white);
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+button {
+  background-color: var(--green-dark);
+  color: var(--white);
+  border: 2px solid var(--border);
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: var(--green-light);
+  color: var(--black);
+}
